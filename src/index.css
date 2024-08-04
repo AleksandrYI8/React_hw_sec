@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+header .left img {
+  width: 80%;
+}
+header .left ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-top: 20px;
+}
+header .left ul a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15.42px;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+  text-decoration-line: none;
+}
+header .left ul li:hover a {
+  color: rgb(197, 89, 39);
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 2px;
+  transition: 0.2s;
+}
+header .right {
+  display: flex;
+  gap: 20px;
+}
+header .right button {
+  all: unset;
+  border: 0;
+}
+header .right button img {
+  width: 90%;
+}
+
+.sec_one {
+  background-image: url("/BG.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 4.2%;
+  z-index: -1;
+}/*# sourceMappingURL=index.css.map */
