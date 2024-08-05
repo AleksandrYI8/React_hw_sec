@@ -36,12 +36,13 @@ function App() {
       id: 6,
       name: 'Скидки и предложения',
       img: "/chines.webp"
-    },
+    }
   ];
 
 
   return (
     <>
+
 
       <Layout>
         <div className="wrap">

@@ -6,8 +6,8 @@ function Products({item}) {
   return (
     <>
     <div className="product">
-        <img src={item.img} alt={item.name} />
-        <span>{item.name}</span>
+        <img className="Product_img" src={item.img} alt={item.name} />
+        <span className="Product_span">{item.name}</span>
     </div>
     </>
   )

@@ -24,6 +24,7 @@ header {
 
         img {
             width: 80%;
+            
         }
 
         ul {
@@ -70,6 +71,13 @@ header {
                 width: 90%;
             }
         }
+
+        button:active{
+            scale: 1.1;
+            opacity: .8;
+            transition: .1s;
+        }
+
     }
 }
 
@@ -161,6 +169,12 @@ header {
             margin-bottom: 60px;
         }
 
+        button:active{
+            scale: .9;
+            opacity: .8;
+            transition: .1s;
+        }
+
         .color {
             display: flex;
             gap: 12px;
@@ -182,6 +196,13 @@ header {
                 background: rgba(255, 255, 255, 1);
             }
 
+
+            div:active{
+                scale: 1.5;
+                transition: .1s;
+
+            }
+
         }
 
         .left_ar {
@@ -190,11 +211,29 @@ header {
             left: 0%;
         }
 
+        
+
         .right_ar {
             position: absolute;
             top: 40%;
             right: 0%;
             transform: rotate(180deg);
+        }
+
+
+        .right_ar:active{
+            scale: 1.1;
+            right: .3%;
+            opacity: .8;
+            transition: .1s;
+        }
+    
+        
+        .left_ar:active{
+            scale: 1.1;
+            left: .3%;
+            opacity: .8;
+            transition: .1s;
         }
 
         /* 
@@ -222,31 +261,33 @@ header {
 
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 2%;
+            gap: 3%;
             padding-top: 0px;
             width: 80%;
             margin: 0 auto;
 
             .product {
-                width: 32%;
+                width: 31%;
                 position: relative;
                 margin-bottom: 2%;
+                max-height: 430px;
 
                 img {
                     width: 100%;
+                    opacity: .9;
+                    object-fit: contain;
                 }
 
                 span {
                     font-family: "Montserrat", sans-serif;
-                    font-size: 22px;
-                    font-weight: 600;
+                    font-size: 25px;
+                    font-weight: 400;
                     line-height: 28.92px;
                     text-align: center;
                     color: rgba(255, 255, 255, 1);
                     position: absolute;
                     white-space: nowrap;
-                    bottom: 20px;
+                    bottom: 30px;
                     left: 20%;
                 }
             }

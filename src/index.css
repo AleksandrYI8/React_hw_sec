@@ -59,6 +59,11 @@ header .right button {
 header .right button img {
   width: 90%;
 }
+header .right button:active {
+  scale: 1.1;
+  opacity: 0.8;
+  transition: 0.1s;
+}
 
 .sec_one {
   background-image: url("/BG.svg");
@@ -145,6 +150,11 @@ header .right button img {
   background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
   margin-bottom: 60px;
 }
+.sec_one .box button:active {
+  scale: 0.9;
+  opacity: 0.8;
+  transition: 0.1s;
+}
 .sec_one .box .color {
   display: flex;
   gap: 12px;
@@ -162,6 +172,10 @@ header .right button img {
 .sec_one .box .color #three {
   background: rgb(255, 255, 255);
 }
+.sec_one .box .color div:active {
+  scale: 1.5;
+  transition: 0.1s;
+}
 .sec_one .box .left_ar {
   position: absolute;
   top: 40%;
@@ -172,6 +186,18 @@ header .right button img {
   top: 40%;
   right: 0%;
   transform: rotate(180deg);
+}
+.sec_one .box .right_ar:active {
+  scale: 1.1;
+  right: 0.3%;
+  opacity: 0.8;
+  transition: 0.1s;
+}
+.sec_one .box .left_ar:active {
+  scale: 1.1;
+  left: 0.3%;
+  opacity: 0.8;
+  transition: 0.1s;
 }
 .sec_one .box_sec {
   margin: 0 auto;
@@ -187,29 +213,32 @@ header .right button img {
 .sec_one .box_sec .sec_box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2%;
+  gap: 3%;
   padding-top: 0px;
   width: 80%;
   margin: 0 auto;
 }
 .sec_one .box_sec .sec_box .product {
-  width: 32%;
+  width: 31%;
   position: relative;
   margin-bottom: 2%;
+  max-height: 430px;
 }
 .sec_one .box_sec .sec_box .product img {
   width: 100%;
+  opacity: 0.9;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .sec_one .box_sec .sec_box .product span {
   font-family: "Montserrat", sans-serif;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 400;
   line-height: 28.92px;
   text-align: center;
   color: rgb(255, 255, 255);
   position: absolute;
   white-space: nowrap;
-  bottom: 20px;
+  bottom: 30px;
   left: 20%;
 }/*# sourceMappingURL=index.css.map */
