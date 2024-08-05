@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.wrap{
+.wrap {
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
@@ -74,14 +74,183 @@ header {
 }
 
 .sec_one {
-        background-image: url("/BG.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 4.2%;
-        z-index: -1;
+    background-image: url("/BG.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+
+    .box {
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 200px;
+        display: flex;
+        gap: 10%;
+        margin-bottom: 10%;
+
+        .second {
+            margin-top: -50px;
+        }
+
+        h1 {
+            font-family: "Oswald", sans-serif;
+            font-size: 110px;
+            font-weight: 100;
+            line-height: 74.9px;
+            text-align: left;
+            color: #FFFFFF;
+            margin-bottom: 60px;
+        }
+
+        hr {
+            width: 42%;
+            border: 1px solid;
+            color: white;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 50px;
+            font-weight: 800;
+            line-height: 48.2px;
+            text-align: left;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+        }
+
+        .item {
+            display: flex;
+            gap: 100px;
+            margin-bottom: 40px;
+
+            p {
+                font-family: "Montserrat", sans-serif;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 28.92px;
+                text-align: left;
+                color: #FFFFFF;
+            }
+
+            span {
+                font-family: "Montserrat", sans-serif;
+                font-size: 30px;
+                font-weight: 800;
+                line-height: 28.92px;
+                text-align: left;
+                color: #FFFFFF;
+            }
+        }
+
+        button {
+            all: unset;
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #FFFFFF;
+            line-height: 17.35px;
+            text-align: center;
+            padding: 16px 120px;
+            background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+            margin-bottom: 60px;
+        }
+
+        .color {
+            display: flex;
+            gap: 12px;
+
+            div {
+                height: 14px;
+                width: 14px;
+            }
+
+            #one {
+                background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+            }
+
+            #two {
+                background: rgba(255, 255, 255, 1);
+            }
+
+            #three {
+                background: rgba(255, 255, 255, 1);
+            }
+
+        }
+
+        .left_ar {
+            position: absolute;
+            top: 40%;
+            left: 0%;
+        }
+
+        .right_ar {
+            position: absolute;
+            top: 40%;
+            right: 0%;
+            transform: rotate(180deg);
+        }
+
+        /* 
+
+        .bg_image{
+            
+        } */
+    }
+
+    .box_sec {
+        margin: 0 auto;
+
+        h1 {
+            font-family: "Oswald", sans-serif;
+            font-size: 50px;
+            font-weight: 300;
+            line-height: 37.45px;
+            text-align: center;
+            margin-bottom: 80px;
+
+        }
+
+
+        .sec_box {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 2%;
+            padding-top: 0px;
+            width: 80%;
+            margin: 0 auto;
+
+            .product {
+                width: 32%;
+                position: relative;
+                margin-bottom: 2%;
+
+                img {
+                    width: 100%;
+                }
+
+                span {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 22px;
+                    font-weight: 600;
+                    line-height: 28.92px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    position: absolute;
+                    white-space: nowrap;
+                    bottom: 20px;
+                    left: 20%;
+                }
+            }
+        }
+
+    }
 }
