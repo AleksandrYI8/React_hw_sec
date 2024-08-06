@@ -13,5 +13,28 @@ function Products({item}) {
   )
 }
 
+function Best_sales({item}){
+  return (
+    <>
+    <div className="best">
+      <div className="up">
+        <img className="Mane_img" src={item.img} alt="" />
+        <img className="Like" src="/like_best.svg" alt="" />
+      </div>
+      <div className="down">
+        <p className="title">{item.name}</p>
+        <p className="price">{item.price} $</p>
+      </div>
+    </div>
+    </>
+  )
+}
+
+
+
+
 export default Products
+export {Best_sales};
+
+
 

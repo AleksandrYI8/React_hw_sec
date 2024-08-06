@@ -201,6 +201,7 @@ header .right button:active {
 }
 .sec_one .box_sec {
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 .sec_one .box_sec h1 {
   font-family: "Oswald", sans-serif;
@@ -222,7 +223,7 @@ header .right button:active {
   width: 31%;
   position: relative;
   margin-bottom: 2%;
-  max-height: 430px;
+  max-height: 450px;
 }
 .sec_one .box_sec .sec_box .product img {
   width: 100%;
@@ -241,4 +242,273 @@ header .right button:active {
   white-space: nowrap;
   bottom: 30px;
   left: 20%;
+}
+.sec_one .box_therd_bg {
+  width: 100%;
+  background-image: url(/bg_grey.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sec_one .box_therd {
+  margin: 0 auto;
+  width: 80%;
+}
+.sec_one .box_therd h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 37.45px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+.sec_one .box_therd .color {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.sec_one .box_therd .color .item_color {
+  height: 14px;
+  width: 14px;
+}
+.sec_one .box_therd .color #one {
+  background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+}
+.sec_one .box_therd .color #two {
+  background: rgb(3, 20, 18);
+}
+.sec_one .box_therd .color #three {
+  background: rgb(3, 20, 18);
+}
+.sec_one .box_therd .color div:active {
+  scale: 1.5;
+  transition: 0.1s;
+}
+.sec_one .box_therd .item_box {
+  display: flex;
+  gap: 2.5%;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.sec_one .box_therd .item_box .best {
+  width: 31%;
+  max-height: 450px;
+}
+.sec_one .box_therd .item_box .best .up {
+  position: relative;
+  margin-bottom: 4%;
+}
+.sec_one .box_therd .item_box .best .up .Mane_img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+.sec_one .box_therd .item_box .best .up .Like {
+  padding: 15px 10px;
+  background-color: white;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+.sec_one .box_therd .item_box .best .down {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 0px 10px;
+  align-items: center;
+}
+.sec_one .box_therd .item_box .best .down .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 19.28px;
+  text-align: left;
+}
+.sec_one .box_therd .item_box .best .down .price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 28.92px;
+  text-align: left;
+  white-space: none;
+}
+.sec_one .box_therd .btn {
+  display: flex;
+  justify-content: center;
+}
+.sec_one .box_therd button {
+  all: unset;
+  width: 20%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 17.35px;
+  text-align: center;
+  padding: 17px 75px;
+  margin-bottom: 80px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+.sec_one .box_therd .left_ar {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+}
+.sec_one .box_therd .right_ar {
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  transform: rotate(180deg);
+}
+.sec_one .box_therd .right_ar:active {
+  scale: 1.1;
+  right: 0.3%;
+  opacity: 0.8;
+  transition: 0.1s;
+}
+.sec_one .box_therd .left_ar:active {
+  scale: 1.1;
+  left: 0.3%;
+  opacity: 0.8;
+  transition: 0.1s;
+}
+.sec_one .box_fourth_bg {
+  width: 100%;
+  position: relative;
+}
+.sec_one .box_fourth {
+  margin: 0 auto;
+  width: 80%;
+}
+.sec_one .box_fourth h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 37.45px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+.sec_one .box_fourth .color {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.sec_one .box_fourth .color .item_color {
+  height: 14px;
+  width: 14px;
+}
+.sec_one .box_fourth .color #one {
+  background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+}
+.sec_one .box_fourth .color #two {
+  background: rgb(3, 20, 18);
+}
+.sec_one .box_fourth .color #three {
+  background: rgb(3, 20, 18);
+}
+.sec_one .box_fourth .color div:active {
+  scale: 1.5;
+  transition: 0.1s;
+}
+.sec_one .box_fourth .item_box {
+  display: flex;
+  gap: 2.5%;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.sec_one .box_fourth .item_box .best {
+  width: 31%;
+  max-height: 450px;
+}
+.sec_one .box_fourth .item_box .best .up {
+  position: relative;
+  margin-bottom: 4%;
+}
+.sec_one .box_fourth .item_box .best .up .Mane_img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+.sec_one .box_fourth .item_box .best .up .Like {
+  padding: 15px 10px;
+  background-color: white;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+.sec_one .box_fourth .item_box .best .down {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 0px 10px;
+  align-items: center;
+}
+.sec_one .box_fourth .item_box .best .down .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19.28px;
+  text-align: left;
+}
+.sec_one .box_fourth .item_box .best .down .price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 28.92px;
+  text-align: left;
+}
+.sec_one .box_fourth .btn {
+  display: flex;
+  justify-content: center;
+}
+.sec_one .box_fourth button {
+  all: unset;
+  width: 20%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 17.35px;
+  text-align: center;
+  padding: 17px 75px;
+  margin-bottom: 80px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+.sec_one .box_fourth .left_ar {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+}
+.sec_one .box_fourth .right_ar {
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  transform: rotate(180deg);
+}
+.sec_one .box_fourth .right_ar:active {
+  scale: 1.1;
+  right: 0.3%;
+  opacity: 0.8;
+  transition: 0.1s;
+}
+.sec_one .box_fourth .left_ar:active {
+  scale: 1.1;
+  left: 0.3%;
+  opacity: 0.8;
+  transition: 0.1s;
+}
+.sec_one .fifth {
+  background-color: #5E3928;
+  height: auto;
+}
+.sec_one .fifth .Mini_bg {
+  margin-top: -140px;
+  width: 100%;
+  margin-bottom: -180px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=index.css.map */

@@ -1,5 +1,5 @@
 import Layout from "./Layout/Layout"
-import Products from "./components/item";
+import Products, { Best_sales } from "./components/item";
 
 
 
@@ -9,33 +9,63 @@ function App() {
     {
       id: 1,
       name: 'Для эфирных масел',
-      img: "/chines.webp"
+      img: "/chines.webp",
+      price: "1932"
+
     },
 
     {
       id: 2,
       name: 'Для гитролатов',
-      img: "/chines.webp"
+      img: "/chines.webp",
+      price: "1432"
     },
     {
       id: 3,
       name: 'Медная посуда',
-      img: "/chines.webp"
+      img: "/chines.webp",
+      price: "1935"
     },
     {
       id: 4,
       name: 'Фксесуар из меди',
-      img: "/chines.webp"
+      img: "/chines.webp",
+      price: "3932"
     },
     {
       id: 5,
       name: 'Индивидуальный заказ',
-      img: "/chines.webp"
+      img: "/chines.webp",
+      price: "1832"
     },
     {
       id: 6,
       name: 'Скидки и предложения',
-      img: "/chines.webp"
+      img: "/chines.webp",
+      price: "1931"
+    }
+  ];
+
+  const Arr_mini = [
+    {
+      id: 1,
+      name: 'Для эфирных масел',
+      img: "/chines.webp",
+      price: "1932"
+
+    },
+
+    {
+      id: 2,
+      name: 'Для гитролатов',
+      img: "/chines.webp",
+      price: "1432"
+    },
+    {
+      id: 3,
+      name: 'Медная посуда',
+      img: "/chines.webp",
+      price: "1935"
     }
   ];
 
@@ -79,7 +109,52 @@ function App() {
                 {Arr.map(item => <Products item={item} />)}
               </div>
             </div>
+            <div className="box_therd_bg">
+              <div className="box_therd">
+                <h1>ЛУЧШИЕ ПРОДАЖИ</h1>
+                <div className="item_box">
+                  {Arr_mini.map(item => <Best_sales item={item} />)}
+                </div>
+                <div className="color">
+                  <div id="one" className="item_color"></div>
+                  <div id="two" className="item_color"></div>
+                  <div id="three" className="item_color"></div>
+                </div>
+                <div className="btn">
+                  <button>Перейти в каталог</button>
+                </div>
+
+
+                <img className="left_ar" src="/ar_black.svg" alt="#" />
+                <img className="right_ar" src="/ar_black.svg" alt="#" />
+              </div>
+            </div>
+
+            <div className="box_fourth_bg">
+              <div className="box_fourth">
+                <h1>НОВИНКИ</h1>
+                <div className="item_box">
+                  {Arr_mini.map(item => <Best_sales item={item} />)}
+                </div>
+                <div className="color">
+                  <div id="one" className="item_color"></div>
+                  <div id="two" className="item_color"></div>
+                  <div id="three" className="item_color"></div>
+                </div>
+                <div className="btn">
+                  <button>Перейти в каталог</button>
+                </div>
+
+
+                <img className="left_ar" src="/ar_black.svg" alt="#" />
+                <img className="right_ar" src="/ar_black.svg" alt="#" />
+              </div>
+            </div>
+              <div className="fifth">
+                <img className="Mini_bg" src="/mini_bg.svg" alt="" />
+              </div>
           </div>
+
 
 
         </div>
