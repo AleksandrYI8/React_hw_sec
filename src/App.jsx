@@ -150,9 +150,7 @@ function App() {
                 <img className="right_ar" src="/ar_black.svg" alt="#" />
               </div>
             </div>
-              <div className="fifth">
-                <img className="Mini_bg" src="/mini_bg.svg" alt="" />
-              </div>
+              
           </div>
 
 
